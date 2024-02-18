@@ -9,7 +9,7 @@ export const AddTaskForm = ({ fetchTasks }) => {
 
   const addNewTask = async () => {
     try {
-
+      console.log(newTask);
       await fetchTasks();
 
       setNewTask("");
